@@ -1,0 +1,25 @@
+body {
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.justify {
+  color: blue;
+  text-align: justify;
+}
+
+div {
+  background-image: url("2.jpg");
+  border: 3px solid red;
+  width: 700px;
+  position: center;
+  margin: auto;
+  background-repeat: repeat;
+  min-height: 400px;
+}
+
+div.repeat {
+  background-repeat: repeat-x;
+}
